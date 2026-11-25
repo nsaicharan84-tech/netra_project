@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #08111f;
+    color: #edf4ff;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+button {
+    background-color: #287ee8;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #1765c3;
+}
+.topbar {
+    min-height: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 4%;
+    background: #111f34;
+    border-bottom: 1px solid #2a3d59;
+    gap: 20px;
+}
+.brand-logo {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #287ee8;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 40px;
+}
